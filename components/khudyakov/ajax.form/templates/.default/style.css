@@ -1,0 +1,17 @@
+.ajax-form-component .error-wrapper {
+    border: 1px solid red;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.ajax-form-component .success-wrapper {
+    border: 1px solid green;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+.ajax-form-component .hidden {
+    display: none !important;
+}
