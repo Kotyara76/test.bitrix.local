@@ -70,8 +70,6 @@ class RssNews
                         ],
                     ];
 
-                    var_dump($arFields);
-
                     if (!$obIblock->Add($arFields)) {
                         Debug::writeToFile($obIblock->LAST_ERROR);
                         // todo логировать ошибки
